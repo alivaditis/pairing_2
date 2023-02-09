@@ -1,6 +1,10 @@
-var friend = "Sean";
+var friend = "Seean";
+var anotherFriend = "Bob";
+var thirdFriend = "Jim";
 if (friend === "Sean") {
-    console.log("Sean is in Toronto")
+    console.log(`${friend} is in Toronto`)
+} else if (friend === "Jim") {
+    console.log(`${thirdFriend} live in Vancouver`)
 } else {
-    console.log("James live in Vancouver")
+    console.log(`${anotherFriend} lives with me`)
 }
